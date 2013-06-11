@@ -39,6 +39,7 @@ function showPage(id) {
     page.element.className = "Page TargetPage";
       
     lastShownPageId = id;
+    window.scrollTo(0,0);
 };
 
 function checkUrl() {
